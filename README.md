@@ -53,34 +53,3 @@ Média Válida: 9
 Atleta: Bruno Castro
 Notas Obtidas: 10,10,10,9,9.5
 Média Válida: 9.83333333333
-Dicas
-
-1. Utilize o laço for para percorrer todos os itens da matriz de objetos:
-
-for (let i = 0; i < objAtletas.length; i++) {
-    // O código que vai aqui será executado
-    // uma vez para cada item da matriz
-}
-2. Você pode utilizar o método .sort() para ordenar as matrizes:
-
-notas = notas.sort()
-3. Você pode utilizar if/else para comparar os valores e eliminar o menor e maior;
-
-4. Você também pode utilizar o método .slice(x, y) para ajudar na seleção dos valores:
-
-// Elimina a maior e a menor nota
-let notasComputadas = notas.slice(1,4)
-5. Você pode utilizar o método .forEach() para realizar a soma dos valores da média;
-
-6. Você pode utilizar o .length para saber o tamanho da sua matriz na hora do cálculo da média;
-
-7. Utilize o console.log() para mostrar o resultado para o usuário.
-
-Entrega
-
-Você deverá criar um repositório na sua conta do GitHub chamado notas-atletas e adicionar na branch main/master um arquivo notas-atletas.js contendo a solução do projeto. Configure o repositório como público e insira o link para ele no campo Link da solução. Lembre-se de adicionar o link completo, começando com https://. Ele será parecido com isto:
-
-https://github.com/nomedeusuario/notas-atletas
-👉🏻 Dica 1: Para testar o seu projeto de certificação antes de enviá-lo, você pode abrir qualquer atividade do DEVstart, limpar o campo de digitação e inserir o código do seu projeto. Verifique a saída no console do DEVstart para se certificar de que seu projeto está funcionando corretamente.
-
-👉🏻 Dica 2: Você pode procurar por "Como criar um arquivo readme.md" no Google e aprender uma habilidade nova. Assim, você pode criar um arquivo readme.md contendo toda a explicação sobre o seu projeto e como executá-lo. Isso será um diferencial muito interessante para o seu projeto que chamará a atenção de futuros recrutadores.
